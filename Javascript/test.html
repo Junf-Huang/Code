@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="../CSS/index.css">
+    <title>JavaScript Test</title>
+    <script type="text/javascript" src="Cookie.js"></script>
+    <script type="text/javascript">
+    var ArrayName = new Array();
+    //一元数组
+    var ArrayName = new Array(new Array(4), new Array(4), new Array(4), new Array(4));
+    var arrayName = [[a, b, c, d], [a, b, c, d], [a, b, c, d], [a, b, c, d]];
+    // 二元数组
+    function Ch() //随窗口的大小变化而变化
+    {
+        alert("调整");
+    }
+    </script>
+</head>
+<body> <!--onresize="Ch();窗口变动触发事件-->
+    <div>
+    <img id="A1" src="2.jpg" alt="加载中" title="点击询问"/>
+    </div>
+<div>
+    <form action="http://test.py" method="POST">
+    这是个输入框：<input type="text" name="zipcode" onclick="showIt(this.form)" onblur="isEmpty(this, document.getElementById('zipcode_help'));"/>
+                                            <!--传递整个表单this.form（用name识别）或者单个表域this--><!--焦点离开时触发事件-->
+    <span id="zipcode_help"></span>
+    正则表达式：<input type="text" name="regex" onblur="Is(this);"/>
+    <span id="button1" class="button" onclick="change()" onmouseover="this.className='CLbutton'" onmouseout="this.className='button'">button1</span>
+    <span id="button2" class="button" onclick="change()"></span>
+    <!--    disabled="disabled"属性能让按钮失灵，="false"启用按钮    -->
+    <!--    document.getElementById("").focus(); 使其输入框得到焦点    -->
+    </form>
+</div>
+</body>
+</html>

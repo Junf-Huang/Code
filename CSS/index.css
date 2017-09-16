@@ -1,0 +1,39 @@
+span.button{
+    background: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    border: thin solid #F34D48;
+    padding: 3px;
+}
+
+span.CLbutton{
+     background: #ffffff;
+     color: #555555;
+     border: thin solid #F34D48;
+     padding: 3px;
+}
+
+.bgcolor{
+    background:#DB1011,#F34D48;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.navigation{
+    background-color: #333333;
+    background-image:url(https://i.pximg.net/c/600x600/img-master/img/2017/07/13/00/00/02/63837414_p0_master1200.jpg);
+    background-attachment: fixed
+}
+div{
+    text-align: center;
+    cursor:pointer;
+    margin-top:20px;
+} 
+h1{
+    font-size: 200%;
+}
+h2{
+    font-size: 150%;
+}
+h3{
+    font-size: 120%;
+}
